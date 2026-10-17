@@ -1,0 +1,20 @@
+{
+  "landau_n5_global": {
+    "source": "landau_n5_global/source/n5_publication_numerical_audit_v1.py",
+    "runs": [
+      {"seed": 20261015, "command": "python n5_publication_numerical_audit_v1.py --mode all --preset publication --workers 12 --seed 20261015 --outdir seed_20261015"},
+      {"seed": 31415926, "command": "python n5_publication_numerical_audit_v1.py --mode all --preset publication --workers 12 --seed 31415926 --outdir seed_31415926"},
+      {"seed": 27182818, "command": "python n5_publication_numerical_audit_v1.py --mode all --preset publication --workers 12 --seed 27182818 --outdir seed_27182818"}
+    ],
+    "protocol": {"angular_grid_points": 150, "angular_random_starts_per_point": 384, "radial_grid_points": 148, "radial_random_starts_per_point": 256, "psd_shared_draws_per_seed": 200000}
+  },
+  "landau_n5_mixed_branch": {
+    "source": "landau_n5_mixed_branch/source/n5_mixed_branch_continuation_v1.py",
+    "command": "python n5_mixed_branch_continuation_v1.py --omega-seed 0.14 --seed-starts 2048 --workers 12 --step 0.001 --min-step 2e-6 --outdir mixed_branch_run",
+    "endpoint_analysis": "python landau_n5_mixed_branch/analysis/analyze_spinodals.py"
+  },
+  "coupled_potts_n5": {
+    "source": "coupled_potts_n5/source/n5_coupled_potts_mixed_closure_v5b.py",
+    "command": "python n5_coupled_potts_mixed_closure_v5b.py --N 5 --j-grid 0.005:0.0244:55 --hessian-samples 15 --audit-starts 128 --audit-seeds 3 --workers 10 --seed 20261015 --out coupled_potts_n5_run"
+  }
+}

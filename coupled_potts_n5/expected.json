@@ -1,0 +1,36 @@
+{
+  "boundary_rows": 55,
+  "hessian_rows": 45,
+  "hessian_negative_modes": 0,
+  "audit_rows": 120,
+  "solver_failures": 0,
+  "no_preemption_threshold": -1e-09,
+  "worst_difference": -3.33e-16,
+  "max_canonical_energy_mismatch": 3.33e-16,
+  "max_fourcell_symmetry_defect": 1.25e-08,
+  "triple": {
+    "j": "0.0245995232286573321696963746522068",
+    "t": "0.0133144652997906656023506801689734",
+    "ratio": "0.541248916738350262369777988746685"
+  },
+  "tolerances": {
+    "rounded_energy_abs": 5.1e-19,
+    "symmetry_rounded_abs": 5.1e-11,
+    "triple_anchor_abs": "1e-33",
+    "triple_stationarity_residual": "1e-54",
+    "triple_coexistence_residual": "1e-54",
+    "triple_ratio_residual": "1e-54",
+    "double_triple_residual": 1e-10
+  },
+  "phase_topology": [
+    "F <-> M",
+    "M <-> L"
+  ],
+  "small_j_cooling_sequence": [
+    "P",
+    "F",
+    "L",
+    "M",
+    "F"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Finite-state selection of overlap geometry and support topology — numerical reproducibility",
+  "scope": "Numerical calculations used by the manuscript; exact analytic derivations and non-scientific failed routes excluded",
+  "calculations": [
+    {
+      "id": "landau_n5_global",
+      "source": "landau_n5_global/source/n5_publication_numerical_audit_v1.py",
+      "archived_runs": ["seed_20261015", "seed_31415926", "seed_27182818"],
+      "supports": ["N=5 angular full-space audit", "N=5 radial phase sequence", "PSD Maxwell/rigidity numerical stress tests"]
+    },
+    {
+      "id": "landau_n5_mixed_branch",
+      "source": "landau_n5_mixed_branch/source/n5_mixed_branch_continuation_v1.py",
+      "analysis": "landau_n5_mixed_branch/analysis/analyze_spinodals.py",
+      "supports": ["mixed metastable branch", "positive canonical-envelope gap", "local-stability spinodal estimates"]
+    },
+    {
+      "id": "coupled_potts_n5",
+      "source": "coupled_potts_n5/source/n5_coupled_potts_mixed_closure_v5b.py",
+      "supports": ["F/M/L Maxwell wedge", "high-precision tangent-Hessian stability", "full-simplex multistart audit", "triple point"]
+    }
+  ]
+}

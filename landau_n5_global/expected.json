@@ -1,0 +1,25 @@
+{
+  "angular_random_starts": 172800,
+  "radial_random_starts": 113664,
+  "psd_shared_samples": 600000,
+  "angular_worst_gaps": [
+    -1.53e-16,
+    -1.39e-16,
+    -1.67e-16
+  ],
+  "omega_star": 0.1875,
+  "alpha_onset_F": 0.025,
+  "alpha_FL": -111.39955751984542,
+  "phase_sequence": [
+    "paramagnet",
+    "rank_one",
+    "locking"
+  ],
+  "tolerances": {
+    "rounded_angular_gap_abs": 5.1e-19,
+    "angular_envelope": 5e-08,
+    "radial_envelope": 2e-06,
+    "alpha_FL_abs": 1e-09,
+    "basin_energy_abs": 5e-08
+  }
+}

@@ -1,0 +1,6 @@
+# Tested public reproduction environment (2026-10-16 observation).
+# These are reproduction pins, not reconstructed historical execution-time pins.
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.0.6
+mpmath==1.4.1

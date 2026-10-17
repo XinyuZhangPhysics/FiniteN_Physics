@@ -1,0 +1,42 @@
+{
+  "interpretation": "local-stability spinodals from zero crossings of the smallest tangent-Hessian eigenvalue",
+  "endpoint_estimates": [
+    0.10027583,
+    0.14874403
+  ],
+  "brackets": [
+    [
+      0.100242187,
+      0.1003671875
+    ],
+    [
+      0.148625,
+      0.14875
+    ]
+  ],
+  "primary_fit_window": 6,
+  "fit_windows": [
+    6,
+    8,
+    10,
+    12,
+    16,
+    20
+  ],
+  "minimum_fit_r2": 0.99999,
+  "stable_min_gap": 0.009188124372,
+  "diagnostic_014": {
+    "I3": -0.347681789502,
+    "J1": 0.51349688378,
+    "Reff": 1.9474314871,
+    "hess_min": 0.006906485869,
+    "gap_to_envelope": 0.009599862771
+  },
+  "tolerances": {
+    "endpoint_abs": 5e-08,
+    "fit_root_window_spread": 5e-07,
+    "gap_abs": 5e-12,
+    "diagnostic_abs": 5e-10,
+    "bracket_row_rounding": 1e-12
+  }
+}

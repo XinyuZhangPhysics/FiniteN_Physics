@@ -1,0 +1,28 @@
+{
+  "N": 5,
+  "triple": {
+    "j": 0.02459952322866068,
+    "t": 0.013314465299792522,
+    "ratio": 0.5412489167383521
+  },
+  "hard_matching_Potts_ratio": 0.5410106403333613,
+  "boundary_rows": 55,
+  "successful_boundary_rows": 55,
+  "hessian_rows": 45,
+  "hessian_negative_count_total": 0,
+  "boundary_ratio_ranges": {
+    "FM_min": 0.37506933213034926,
+    "FM_max": 0.5403009174320402,
+    "ML_min": 0.5410106403333548,
+    "ML_max": 0.5412335034867097
+  },
+  "audit": {
+    "rows": 120,
+    "successful_rows": 120,
+    "worst_delta_full_minus_correct_envelope": -3.3306690738754696e-16,
+    "violations_below_minus_1e-9": 0,
+    "max_fourcell_symmetry_defect": 1.2451518239156515e-08,
+    "max_abs_group_energy_minus_full": 3.3306690738754696e-16,
+    "branch_solver_failures": 0
+  }
+}

@@ -1,0 +1,10 @@
+PASS  source hashes
+PASS  Landau counts and P->Q_F->Q_L sequence
+PASS  Landau full-space envelopes and canonical basins
+PASS  Landau PSD Maxwell/rigidity numerical support
+PASS  mixed metastable branch table
+PASS  mixed spinodal endpoint analysis
+PASS  coupled-Potts Maxwell continuation and Hessian inertia
+PASS  coupled-Potts full-simplex audit
+PASS  coupled-Potts high-precision triple point
+PUBLIC_REPRODUCIBILITY_STATUS = PASS
